@@ -1,4 +1,23 @@
-﻿metro-bootstrap
+﻿metro-bootstrap for webpack
+===========================
+A fork of [metro-bootstrap](https://github.com/TalksLab/metro-bootstrap) that allows it to be used with webpack by using webpack-relative path names.
+
+Usage
+=====
+You need to have both this project and bootstrap installed via npm (not tested with bower, depends on webpack config).
+
+In your application, reference the root file like so:
+`@import "~metro-bootstrap/app/less/metro-bootstrap.less";`
+
+This project fixes the path names from metro-bootstrap to bootstrap, so everything is linked correctly.
+
+TODO
+====
+* Add a package.json to explicitly define the dependency on bootstrap
+* Submit to NPM repository.
+
+
+metro-bootstrap
 ===============
 
 Simple bootstrap from Twitter with Metro style.
